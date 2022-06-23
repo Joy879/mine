@@ -10,4 +10,4 @@ fig  = px.scatter(df, x="gdpPercap", y="lifeExp", animation_frame="year", animat
            log_x=True, size_max=55, range_x=[100,100000], range_y=[25,90])
 
 st.plotly_chart(fig)
-st.balloons
+st.balloons()
